@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* Navbar style*/
+nav ,footer {
+    background-color: #FCF9C6;
+}
+
+.logo > span {
+    color: #00C213;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;    
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;            
+}
+
+ul li a {    
+    padding: 8px 20px;
+    border-radius: 25px;
+}
+
+/* Homepage style*/
+.title-home > a {
+    color: #ECB390 !important;
+}
+
+/*Form Pendaftaran style*/
+.btn-cancel {
+    background-color: #E7E7FF;
+}
+
+/*Status kegiatan style*/
+
+.status-field {
+    background-color: #C7D36F;
+}
