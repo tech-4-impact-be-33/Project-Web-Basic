@@ -17,7 +17,7 @@ form.addEventListener("submit", async (event) => {
   results.forEach((item) => {
     if (item.username === usernames && item.password == passwords) {
       // redirect jika sudah benar
-      window.location.href = "./home.html";
+      window.location.href = "./listKegiatan.html";
     } else {
       warning.innerHTML = "Check your Username or Password Again!";
       console.log(false);

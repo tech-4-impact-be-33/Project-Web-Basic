@@ -67,8 +67,10 @@ form.addEventListener("submit", async (event) => {
       },
     })
       .then((result) => result.json())
-      .then((result) => console.log(result))
+      // .then((result) => console.log(result))
       .catch((err) => console.log("error", err));
+    
+      window.location.href="./login.html"
   } else {
     warning.innerHTML = "Check your input again!";
   }
